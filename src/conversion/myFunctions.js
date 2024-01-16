@@ -1,5 +1,7 @@
-//In all of these examples, a "long" string should be taken to mean
-// any string which has a length of 7 or more.
+//Definitions:
+// In all of these example functions and their tests, the following definitions should be used:
+//"long":  any string which has a length of 7 or more.
+//"odd": any number n for which n % 2 !== 0
 
 /** return the first "long" string in the given array, or undefined if none is found.
  * @param {string[]} inputStrings
