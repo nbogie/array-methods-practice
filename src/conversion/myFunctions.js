@@ -41,7 +41,7 @@ function findAllTheStrings(inputArray) {}
 
 /** Given an array of people objects,
  * return a new array containing only those people objects whose firstName OR secondName (or both) is long.
- * @param {{firstName: string, secondName:string}[]} inputArray
+ * @param {{firstName: string, secondName:string}[]} inputObjects
  * @returns {{firstName: string, secondName:string}[]}
  * */
 function findAllPeopleWithALongName(inputObjects) {}
