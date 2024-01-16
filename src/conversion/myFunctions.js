@@ -11,7 +11,7 @@ function findFirstLongString(inputStrings) {}
  * @param {number[]} inputNumbers
  * @return {number|undefined}
  */
-function findFirstOddNumber() {}
+function findFirstOddNumber(inputNumbers) {}
 
 /** return the LAST "long" string in the given array of strings, or undefined if none is found.
  * @param {string[]} inputStrings
@@ -30,34 +30,34 @@ function findAllLongStrings(inputStrings) {}
  * @param {number[]} inputNumbers
  * @return {number[]}
  */
-function findAllOddNumbers() {}
+function findAllOddNumbers(inputNumbers) {}
 
 /** Given an array of mixed types of value
  * return a new array containing only those elements of type string.
  * @param {any[]} inputArray
  * @returns {string[]}
  * */
-function findAllTheStrings() {}
+function findAllTheStrings(inputStrings) {}
 
 /** Given an array of people objects,
  * return a new array containing only those people objects whose firstName OR secondName (or both) is long.
  * @param {{firstName: string, secondName:string}[]} inputArray
  * @returns {{firstName: string, secondName:string}[]}
  * */
-function findAllPeopleWithALongName() {}
+function findAllPeopleWithALongName(inputObjects) {}
 
 /** given an array of numbers return true if all of them are odd, else false.
  * @param {number[]} inputNumbers
  * @return {boolean}
  */
-function areAllNumbersOdd() {}
+function areAllNumbersOdd(inputNumbers) {}
 
 /** Given an array of strings of various lengths,
  * return true if all of the strings are "long", else false
  * @param {string[]} inputStrings
  * @returns {boolean}
  * */
-function areAllStringsLong() {}
+function areAllStringsLong(inputStrings) {}
 
 export {
     findFirstLongString,
