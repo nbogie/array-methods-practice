@@ -40,7 +40,7 @@ test("find all long strings - when there are none", () => {
 });
 
 test("find all odd numbers", () => {
-    expect(findAllOddNumbers([8, 7, 4, 5, 2, 3])).toEqual([7, 5, 2]);
+    expect(findAllOddNumbers([8, 7, 4, 5, 2, 3])).toEqual([7, 5, 3]);
 });
 
 test("find all the strings", () => {
