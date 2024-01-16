@@ -37,7 +37,7 @@ function findAllOddNumbers(inputNumbers) {}
  * @param {any[]} inputArray
  * @returns {string[]}
  * */
-function findAllTheStrings(inputStrings) {}
+function findAllTheStrings(inputArray) {}
 
 /** Given an array of people objects,
  * return a new array containing only those people objects whose firstName OR secondName (or both) is long.
