@@ -1,12 +1,46 @@
 # Array method exercises
 
-## Task 1
+## Task 1 - various
 
 1.  Install dependencies with `yarn`
 1.  Run `yarn test` to check that jest runs the tests but they fail for sensible reasons
 1.  Consult [the tests](src/conversion/myFunctions.test.js)
     and edit [myFunctions.js](src/conversion/myFunctions.js)
 1.  implement the functions in myFunctions.js until all tests pass.
+
+## Task 2 - map practice
+
+1. Follow the setup steps as per task 1 if you have not already done so
+1. run `yarn test mapPractice` to only run the tests for this task
+1. Consult the tests in [mapPractice.test.js](src/conversion/mapPractice.test.js)
+1. and edit the functions in [mapPractice.js](src/conversion/mapPractice.js)
+1. implement the functions until all tests pass.
+
+You should use the `array.map` function in your solution for each of these functions.
+
+### Conveniences
+
+**Run tests on every change**
+
+By adding `--watch` to an instruction to jest, you can cause tests to be re-run every time a relevant file is changed. E.g.
+
+```bash
+yarn test mapPractice --watch
+```
+
+**Run only one test**
+
+Note that you can amend a test to be the only one to run, when you want to focus on it, as follows:
+
+```js
+    test.only("square all numbers"
+```
+
+instead of
+
+```js
+    test("square all numbers"
+```
 
 ## Rules:
 
@@ -28,6 +62,7 @@ Specifically, you should research the following, to see which ones can help you.
 -   array.includes
 -   array.indexOf
 -   array.every
+-   array.map
 
 ### Extra clarifications
 
