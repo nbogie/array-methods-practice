@@ -1,7 +1,7 @@
 import {
     addPrefixToEachString,
     capitaliseAllStrings,
-    createFullNameForEachAuthor,
+    getFullNameForEachAuthor,
     getLengthsOfAllNames,
     getSquaresOfAllNumbers,
     simplifyAllEpisodes,
@@ -59,7 +59,10 @@ test("create full name for each author", () => {
         "Zadie Smith",
     ];
 
-    expect(createFullNameForEachAuthor(authorObjects)).toEqual(expectedNames);
+    const actualOutput = getFullNameForEachAuthor(authorObjects);
+    expect(actualOutput).toEqual(expectedNames);
+    //check the returned reference is to a different array
+    expect(actualOutput).not.toBe(authorObjects);
 });
 
 test("simplify all episodes", () => {
@@ -106,4 +109,6 @@ test("simplify all episodes", () => {
         { title: "There's No Disgrace Like Home", rating: 7.7 },
     ];
     expect(actualOutput).toEqual(expectedOutput);
+    //check it's a different array than the input
+    expect(actualOutput).not.toBe(inputEpisodes);
 });
